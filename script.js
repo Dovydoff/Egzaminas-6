@@ -25,7 +25,7 @@ const users = [
 const getUserAverageAge = users.reduce((currentTotal, user) => {
   return user.age + currentTotal;
 }, 0);
-console.log(getUserAverageAge / 9);
+console.log(getUserAverageAge / users.length);
 
 //! 2
 let names = users.map(function getUsersNames(users) {
